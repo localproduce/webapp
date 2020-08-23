@@ -1,0 +1,30 @@
+.list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  border-radius: 20px;
+  padding: 1.5rem !important;
+  margin: 2rem 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.list-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.expand {
+  width: 5rem;
+  height: 2rem;
+  position: absolute;
+  margin-right: 2rem;
+  right: 0;
+}
+
+@media (min-width: 640px) {
+  .list {
+    width: 50%;
+  }
+}

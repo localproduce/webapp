@@ -1,0 +1,53 @@
+table {
+	text-align: justify;
+	background-color: #47D75C; /* light green */
+	border: 1px solid black;
+	border-collapse: separate;
+	border-spacing: 50px 0;
+	margin-top: 80px;
+}
+
+th, td {
+	table-layout: fixed;
+	width: 33%;
+}
+
+
+#prodname {
+	color: black;
+	font-family: sans-serif;
+	font-size: 25px;
+	padding-top: -10px;
+}
+
+
+#rtablecorners {
+	border-radius: 30px 30px 30px 30px;
+	background: #47D75C; 
+	padding: 20px;
+	width: 90%;
+	height: 150px;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 125px;
+	border: 50%;
+	position: relative;
+}
+
+.opensans {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#province {
+	font-size: 1.25rem;
+}
+
+button {
+	font-size: 1.25rem;
+}

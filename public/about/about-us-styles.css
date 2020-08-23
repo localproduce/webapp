@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*** Base Styling ***/
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #3BB981; /* green */
+}
+
+.logo {
+	width: 125px;
+	float: left;
+	border: 50%;
+	position: relative;
+	left: 35px;
+}
+
+.opensans {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+table {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px; 
+	table-layout:fixed;
+	width: 1200px;
+}
+
+td {
+	padding: 0px 80px 30px 80px;
+	word-wrap: break-word; 
+	text-align: top;
+	color: white;
+}
+
+.pngstyle {
+	width: 150px;
+}
+
+/* Navigation bar */
+
+#navbar {
+	height: 125px;
+	background-color: white;
+	border-radius: 25px 25px 25px 25px;
+	width: 100%;
+}
+
+ul {
+	padding: 50px 0px;
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	padding: 40px 20px 20px 60px;
+}
+
+li a {
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 25px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+li a:hover {
+	background-color: #60DEAD; /** torquoise **/
+}
+
+.current {
+	color: #3BB981;
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*** Base Styles ***/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #3BB981; /** green **/
+}
+
+h1 {
+	padding-left: 600px;
+	padding-top: 70px;
+	padding-bottom: 40px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+	width: 30%;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+}
+
+
+.container2 {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 0px 25px 25px 25px;
+}
+
+.logo {
+	width: 125px;
+	float: left;
+	border: 50%;
+	left: 35px;
+	position: relative;
+}
+
+.opensans {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation bar */
+
+#navbar {
+	height: 125px;
+	background-color: white;
+	border-radius: 25px 25px 0px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	padding: 50px 0px;
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	padding: 40px 20px 20px 60px;
+}
+
+li a {
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 25px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+li a:hover {
+	background-color: #60DEAD; /** torquoise **/
+}
+
+.current {
+	color: #3BB981; /* green */
+}
+
+/*hover container */
+
+.container1 {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-image: url("../assets/fruits_veggies.jpg");
+  border-radius: 0px 0px 25px 25px;
+}
+
+.description {
+	position: absolute;
+	top: 0;
+	right:0;
+	bottom: 0;
+	left:0;
+	background-color: #3BB981;
+	visibility: hidden;
+	opacity: 0;
+	text-align: center;
+}
+
+.textcontainer {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	visibility: hidden;
+	opacity: 0;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	font-family:'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.container1:hover .textcontainer {
+	visibility: visible;
+	opacity: 1;
+}
+
+.container1:hover .description{
+	visibility: visible;
+	opacity:0.5;
+}
